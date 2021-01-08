@@ -1,0 +1,101 @@
+body{
+    margin:0 auto;
+    padding:0;
+    background-color:black;
+    color:#999;
+    width:900px;
+}
+canvas{
+    background-color:black;
+    border:1px solid #000;
+}
+table{
+    width:900px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);   
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+}
+td{
+    vertical-align:top;
+    border:1px solid #333;
+}
+td#tdPS{
+    width:384px;
+}
+pre#codePS{
+    max-height:550px; min-height:550px; height:auto !important; height:550px; /* IE6 min-height hack */
+    overflow:scroll;
+    overflow-y:auto;
+    overflow-x:auto;
+    font-size:7pt;
+}
+a{
+    color:#CCF;
+}
+a:hover{color:white;}
+
+input{
+    background-color:#033;
+    border:1px solid #033;
+    color:#999;
+    outline: none;
+}
+input.inpClick{
+    border:1px solid #033;
+    font-weight:bold;
+}
+input.inpTxt{
+    width:25px;
+}
+input#inpG{
+    width: 60px;
+}
+input#inpS{
+    width: 60px;
+}
+input#inpN{
+    width: 30px;
+}
+input#inpR{
+    width: 20px;
+}
+input#inpFPS{
+    width: 20px;
+}
+input#inpPS{
+    width: 130px;
+}
+input#inpRand{
+    width:100px;
+}
+input:hover{
+    background-color:#044;
+    color:#FFF;
+}
+input[type="button"]{
+    cursor:pointer;
+}
+input[disabled]{
+    border:1px solid #011;
+    background-color:#022;
+    color:#666 !important;
+    cursor:default;
+}
+::-moz-selection{
+    background-color:inherit;
+}
+::selection{
+    background-color:inherit;
+}
+pre::-moz-selection{
+    background-color:#044;
+    color:#fff;
+}
+pre::selection{
+    background-color:#044;
+    color:rgba(255,255,255,0.99);
+}
